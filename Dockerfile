@@ -5,7 +5,7 @@ FROM sysdiglabs/dummy-vuln-app:latest
 ADD . /foo
 
 # Bad practice: Exposing secrets in Environment Variables
-ENV AWS_ACCESS_KEY_ID foobar
+ENV AWS_ACCESS_KEY_ID ruby_eagle_27806
 ENV AWS_SECRET_ACCESS_KEY my_key
 ENV AWS_DEFAULT_REGION my_region
 
