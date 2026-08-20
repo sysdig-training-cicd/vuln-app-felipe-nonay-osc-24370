@@ -24,7 +24,7 @@ jobs:
           # Tag of the image to analyse
           image-tag: myregistry/my-vuln-application:latest
           # API token for Sysdig Scanning auth
-          sysdig-secure-url: https://ec2-184-73-49-199.compute-1.amazonaws.com
+          sysdig-secure-url: https://sysdig.cjib-training.dev.draios.com
           sysdig-skip-tls: true
           sysdig-secure-token: ${{ secrets.KUBELAB_SECURE_API_TOKEN }}
           stop-on-failed-policy-eval: true
