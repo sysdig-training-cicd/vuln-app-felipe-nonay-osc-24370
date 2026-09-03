@@ -24,7 +24,7 @@ jobs:
           # Tag of the image to analyse
           image-tag: myregistry/my-vuln-application:latest
           # API token for Sysdig Scanning auth
-          sysdig-secure-url: https://sysdig.arab-bank.dev.draios.com
+          sysdig-secure-url: https://arab-bank-ilt-oci.dev.draios.com
           sysdig-skip-tls: true
           sysdig-secure-token: ${{ secrets.KUBELAB_SECURE_API_TOKEN }}
           stop-on-failed-policy-eval: true
